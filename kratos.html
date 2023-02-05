@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav
+      class="
+        relative
+        w-full
+        flex flex-wrap
+        items-center
+        justify-between
+        py-4
+        bg-gray-100
+        text-gray-500
+        hover:text-gray-700
+        focus:text-gray-700
+        shadow-lg
+        navbar navbar-expand-lg navbar-light
+      "
+    >
+      <div
+        class="
+          container-fluid
+          w-full
+          flex flex-wrap
+          items-center
+          justify-between
+          px-6
+        "
+      >
+        <button
+          class="
+            navbar-toggler
+            text-gray-500
+            border-0
+            hover:shadow-none hover:no-underline
+            py-2
+            px-2.5
+            bg-transparent
+            focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+          "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="bars"
+            class="w-6"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow items-center"
+          id="navbarSupportedContent"
+        >
+          <a class="text-xl text-black" href="#">Gotta Have Faith</a>
+          <!-- Left links -->
+          <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-2 md:pr-2">
+              <a
+                class="
+                  nav-link
+                  text-gray-500
+                  hover:text-gray-700
+                  focus:text-gray-700
+                  p-0
+                "
+                href="/kratos.html"
+                >Kratos</a
+              >
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+    </nav>
+    <main>
+      <section class="overflow-hidden text-gray-700">
+        <div class="container px-5 py-2 mx-auto lg:pt-20 lg:px-34 w-11/12">
+          <div class="text-center text-gray-800 py-2 px-6">
+            <h1 class="text-5xl font-bold mt-0 mb-3">This is Kratos</h1>
+          </div>
+          <div class="flex flex-wrap -m-1 md:-m-2">
+            <div class="flex flex-wrap md:w-1/2">
+              <div class="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="
+                    block
+                    object-cover object-center
+                    w-full
+                    h-full
+                    rounded-lg
+                  "
+                  src="https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/121234662_3409281875828320_8479541315130069128_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ni_jXv0c1vcAX_lyV9t&_nc_ht=scontent-ord5-2.xx&oh=00_AfAdR2cngYU-KeqgswBC9a9GwPhxnlpcqEfqItj60QesYw&oe=6404F773"
+                />
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="
+                    block
+                    object-cover object-center
+                    w-full
+                    h-full
+                    rounded-lg
+                  "
+                  src="https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/121685365_3415643795192128_1416175647453994325_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=F3xQPmfdP9kAX-KD10C&_nc_ht=scontent-ord5-2.xx&oh=00_AfD3KpGVJduamI1O-lSxpVFvJPHnbDwQ6NcayGsbTGwrRw&oe=64050043"
+                />
+              </div>
+              <div class="w-full p-1 md:p-2">
+                <div
+                  class="block object-center w-full h-full rounded-sm text-lg"
+                >
+                  <p class="p-3">
+                    Why is my dog on here you ask? Because I said so. He's
+                    technically my boyfriend's dog, he got him October 10th,
+                    2020 and the place we adopted him from said his birthday was
+                    January 11th - the same day as mine! He is an australian
+                    cattle dog mix and he is the sweetest boy. Some other facts:
+                  </p>
+                  <ul class="px-4 list-disc list-inside">
+                    <li>
+                      A toy doesn't last him longer than a max of two days
+                    </li>
+                    <li>He is spoiled rotten</li>
+                    <li>He is terrified of the rubber pig toys</li>
+                    <li>Ice is his favorite treat</li>
+                    <li>
+                      He doesn't know how to get under a blanket on his own
+                    </li>
+                    <li>His birthday is the same day as mine.</li>
+                    <li>He is scared of balloons</li>
+                    <li>and thunderstorms</li>
+                    <li>and vaccuums</li>
+                    <li>and water</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-wrap md:w-1/2 pb-4">
+              <div class="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="
+                    block
+                    object-cover object-center
+                    w-full
+                    h-full
+                    rounded-lg
+                  "
+                  src="https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/138582055_3652014114888427_5921850387107013337_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=wabCKxuGfqkAX9HeIOX&_nc_ht=scontent-ord5-2.xx&oh=00_AfD04uQS9IIA7haepeQ3h9uak1hOMR1kMjxMXD_7TU-zZg&oe=6404E132"
+                />
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="
+                    block
+                    object-cover object-center
+                    w-full
+                    h-full
+                    rounded-lg
+                  "
+                  src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/241754349_4352634968159668_8693318312852110736_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=QYRtrlEMW70AX9DCFM4&_nc_ht=scontent-ord5-2.xx&oh=00_AfDoT8ygM_6czpWF5vOu1BJ55VwDv-IaPF95eXTGnFJKRA&oe=63E23AF9"
+                />
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="
+                    block
+                    object-cover object-center
+                    w-full
+                    h-full
+                    rounded-lg
+                  "
+                  src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/241433527_4352634998159665_1884036186219326750_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=mx8jH0WFe3gAX9hv9dx&_nc_ht=scontent-ord5-2.xx&oh=00_AfAqLOUHLmbvKnKVwXfnRQNQRRCx36ze1Z3YO3rcoNQbQg&oe=63E234F7"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
